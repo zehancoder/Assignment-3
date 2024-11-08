@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-link{
+    @apply lg:text-xl text-base text-[#072125] dark:text-white hover:dark:text-[#F44335] hover:text-[#F44335] transition;
+}
+
+.numbers{
+    @apply md:text-3xl text-lg font-bold text-[#00FF84] ml-3;
+}
+
+.section1-text{
+    @apply md:text-2xl text-base text-[#2D3142] font-medium dark:text-white;
+}
+
+.section2-text{
+    @apply md:text-2xl text-lg text-[#181818] dark:text-white;
+}
+
+.section2-tags{
+    @apply md:px-4 px-2 py-2 border md:text-base sm:text-base text-[12px] xl:text-lg border-[#F44335] rounded-full cursor-pointer hover:bg-[#F44335] transition hover:text-white dark:text-white hover:dark:text-black;
+}
+
+.section3-text{
+    @apply md:text-xl text-lg dark:text-white text-[#181818] font-medium;
+}
+
+.section3-tags {
+    @apply md:px-8 md:pt-2 md:text-xl text-base rounded-full px-4 md:py-2 py-1 dark:text-white text-[#2D3142] border border-[#232323] dark:border-white  hover:bg-[#00FF84] transition cursor-pointer dark:hover:text-[#2D3142];
+}
+
+
+
+.sections-designs{
+    @apply lg:px-24 md:px-5 px-3 py-3 dark:bg-gray-900 ;
+}
+
+.sections-same-grids{
+    @apply grid grid-cols-12;
+}
+
+.section-col-spans{
+    @apply col-span-12  lg:col-span-3 md:p-6 p-6 bg-[#2D3142] dark:bg-gray-800
+}
+
+.section-col-spans2{
+    @apply col-span-12  lg:col-span-9 bg-white dark:bg-slate-900 md:p-6 p-6;
+}
+
+.section-sameText{
+    @apply md:text-4xl md:mt-10 mt-4 text-3xl font-semibold text-white md:leading-tight leading-10;
+}
+
+.section-courses{
+    @apply text-[#00FF84] md:text-xl text-base cursor-pointer
+}
+
+.section5-text{
+    @apply md:text-xl text-base text-[#181818] dark:text-white;
+}
+
+.section5-tags{
+    @apply md:px-6 hover:bg-[#F44335] md:text-lg text-base rounded-full px-4 md:py-1 py-1 dark:text-white text-[#2D3142] border border-[#F44335]   transition cursor-pointer dark:hover:text-[#2D3142];
+}
+
