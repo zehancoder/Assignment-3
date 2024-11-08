@@ -938,6 +938,15 @@
     
     <!---------footer end---------->
 
-    <script src="script.js"></script>
+    <!-------SCRIPT'S------->
+
+    <script>
+        let modes = document.querySelector("#modes");
+let toggleBtn = document.querySelector("#toggleBtn");
+
+toggleBtn.addEventListener("click", () => {
+    modes.classList.toggle("dark");
+})
+    </script>
 </body>
 </html>
